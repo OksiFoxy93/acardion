@@ -1,0 +1,73 @@
+.conteiner {
+    margin: auto;
+    max-width: 1170px;
+}
+
+.ui-accordion .ui-accordion-header {
+    background-color: #fce7f2;
+    color: #860da6;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    border-radius: 0;
+}
+
+.ui-accordion .ui-accordion-header {
+    background-image: none;
+}
+
+.ui-accordion .ui-accordion-content {
+    background-color: #fef5fa;
+    border: none;
+    border-radius: 0;
+}
+
+.ui-accordion .ui-accordion-header.ui-state-active {
+    background-color: #fef5fa!important;
+}
+
+.ui-state-focus {
+    outline: none;
+}
+
+.ui-accordion .ui-accordion-header:before {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #860da6;
+    position: relative;
+    bottom: 5px;
+    margin-right: 10px;
+}
+
+
+.ui-state-hover .ui-icon{
+    background-image: none;
+}
+
+.ui-icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: auto;
+    height: auto;
+    text-indent: 0;
+    overflow: inherit;
+    background-image: none;
+}
+
+.ui-icon:before {
+    content: "\f105";
+    color: black;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+}
+
+
+.ui-accordion .ui-accordion-header.ui-state-active .ui-icon {
+    transform: rotate(90deg);
+}
